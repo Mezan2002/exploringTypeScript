@@ -1,0 +1,11 @@
+var userNames;
+userNames = ["Mezan", "Rahman", "Munna"];
+// console.log(userNames);
+var userNamesAndId;
+userNamesAndId = ["Mezan", 20];
+userNamesAndId.push("Munna");
+userNamesAndId.push("Rahman");
+userNamesAndId.pop();
+userNamesAndId.shift();
+userNamesAndId.unshift("Mezan");
+console.log(userNamesAndId);
